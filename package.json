@@ -1,0 +1,14 @@
+{
+"name": "Pivotal-App",
+"version": "1.0.0",
+"dependencies":
+{
+"express": "~4.0.0",
+"method-override":"*",
+"body-parser": "1.8",
+"mysql": "*",
+"ejs": "~1.0.0",
+"util": "*",
+"cfenv": "*"
+}
+}

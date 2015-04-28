@@ -1,0 +1,12 @@
+#--------------------------------------
+# change the `host` property to a
+# unique hostname on the domain you
+# are deploying to.
+#--------------------------------------
+
+applications:
+- name:    cf-node-contactform
+  host:    cf-node-contactform-dcn6
+  memory:  128M
+  command: node server.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
