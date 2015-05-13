@@ -7,10 +7,10 @@ var util = require('util');
 
 //MySql configuration goes here.
 var connection = mysql.createConnection({
-  host: 'us-cdbr-iron-east-02.cleardb.net',
-  user: 'b9ba7e943b55d3',
-  password: 'ae115ea5',
-  database: 'ad_9dd39facc04c387'
+  host: '',
+  user: '',
+  password: '',
+  database: ''
 });
 
 var cfenv = require("cfenv")
